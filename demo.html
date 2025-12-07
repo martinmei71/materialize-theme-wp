@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Materialize Theme – Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="assets/img/nobara-icon.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="demo-body">
+  <header class="top-app-bar">
+    <div class="top-app-bar__left">
+      <button class="icon-button nav-menu-button" aria-label="Open navigation menu">
+        <span class="nav-menu-icon"></span>
+      </button>
+      <a href="#hero" class="brand">
+        <img src="assets/img/nobara-icon.png" alt="Logo" class="brand__logo-img" />
+        <span class="brand__text">Materialize Theme</span>
+      </a>
+    </div>
+    <nav class="top-app-bar__nav">
+      <a href="#hero" class="nav-link nav-link--active">Overview</a>
+      <a href="#components" class="nav-link">Components</a>
+      <a href="#cards" class="nav-link">Cards</a>
+      <a href="#footer" class="nav-link">Footer</a>
+    </nav>
+    <div class="top-app-bar__right">
+      <button class="theme-toggle icon-button" type="button" aria-label="Toggle light / dark theme">
+        <span class="theme-toggle__track"></span>
+        <span class="theme-toggle__thumb"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="section hero section--padded">
+      <div class="hero__content">
+        <h1>Materialize Theme demo</h1>
+        <p>
+          This HTML file is a simple, static preview of the WordPress theme styles:
+          typography, buttons, cards, links, and the light/dark theme toggle.
+        </p>
+        <div class="hero__actions">
+          <button class="button button--primary">Primary action</button>
+          <button class="button button--tonal">Tonal action</button>
+          <button class="button button--outlined">Outlined action</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="components" class="section section--surface section--padded">
+      <div class="section__header">
+        <h2>Typography & links</h2>
+        <p>Examples of headings, paragraphs, and inline links with dashed underlines.</p>
+      </div>
+      <div class="section__content">
+        <h3>Heading level 3</h3>
+        <p>
+          This is a body paragraph using the Materialize Theme. Inline links such as
+          <a href="#">this documentation link</a> are rendered in semi-bold with a dashed underline
+          and switch to the theme accent color on hover.
+        </p>
+        <ul>
+          <li>List item one</li>
+          <li>List item two with a <a href="#">secondary link</a></li>
+          <li>List item three</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="cards" class="section section--dense section--padded">
+      <div class="section__header">
+        <h2>Cards & layout</h2>
+        <p>Showcase of elevated surfaces, rounded corners, and subtle gradients.</p>
+      </div>
+      <div class="cards-grid cards-grid--three">
+        <article class="card">
+          <div class="card__content">
+            <h3>Standard card</h3>
+            <p>
+              Used for simple content blocks. Follows Material 3 elevation, padding, and radius.
+            </p>
+            <button class="button button--tonal">Learn more</button>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <h3>Emphasized card</h3>
+            <p>
+              Combine gradient backgrounds and elevated borders to highlight key information.
+            </p>
+            <button class="button button--outlined">See details</button>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__content">
+            <h3>Compact card</h3>
+            <p>
+              Ideal for quick stats, links, or configuration snippets.
+            </p>
+            <a href="#" class="chip-link">Open example</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="footer" class="section section--padded">
+      <div class="section__header">
+        <h2>Footer & wave divider</h2>
+        <p>
+          Scroll down to see the integrated wavy divider between the page content and footer,
+          including its look in both light and dark themes.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>Materialize Theme demo page. This file is not required by WordPress, but helps preview the design outside of WP.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
